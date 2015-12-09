@@ -1,11 +1,12 @@
 body{
-  background:whitesmoke;
+  background:#FFE4C4;
+  font-family: carolina;
 }
 a {
 
     color: black;
     text-decoration: none;
-    font-weight: bold;
+
 
 }
 .header{
@@ -38,7 +39,7 @@ float: right;
 ul li a {
   color: black;
     text-decoration: none;
-    font-weight: bold;
+
     font-style: normal;
     padding: 2px;
 }
@@ -69,7 +70,7 @@ p{
 }
 
 .main p{
-  font-family: monospace;
+  font-family:carolina ;
   padding-bottom: 40px;
 }
 
@@ -87,18 +88,21 @@ display: block;
    border:1px solid yellow;
 }
 .hero h1{
-  font-family: CC Spills;
+  font-family: carolina;
   color: black;
   font-size: 40px;
   font-style: normal;
-  /*padding-top: -20px;*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+
 }
 .hero h3{
-  font-family: fantasy;
+  font-family: carolina;
   font-size: 20px;
   color:black;
   font-weight: lighter;
   font-style: normal;
+  padding-bottom: 10px;
 }
 .hero p h3{
   float: left;
@@ -109,7 +113,7 @@ display: block;
 }
 .hero ol{
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: carolina;
   font-style: normal;
 }
 .body h1{
@@ -141,12 +145,12 @@ padding:20px;
   font-size: 30px;
   margin-right: auto;
   color: green;
-  font-family: fantasy;
+  font-family: carolina;
   font-style: normal;
 }
 .image  p {
 
- font-family: sans-serif;
+ font-family:carolina;
  font-size: 16px;
  padding-top: 20px;
  font-style: normal;
@@ -159,30 +163,30 @@ padding:20px;
 
 }
 ol li h1{
-  font-family: monospace;
+  font-family: carolina;
   color: black;
   font-style: normal;
 }
 ol li p{
-  font-family: sans-serif;
+  font-family: carolina;
   font-size: 10px;
   font-style: normal;
 }
 
 h1,h3{
   /*padding-top: 40px;*/
-font-family: inherit;
+font-family: carolina;
 color:orange;
 font-style: normal;
 }
 h1{
-  font-family: sans-serif;
+  font-family: carolina;
   font-size: 30px;
 text-align: center;
 font-style: normal;
 }
 h3{
-  font-family: sans-serif;
+  font-family: carolina;
   font-size: 20px;
 text-align: center;
 font-style: normal;
@@ -190,7 +194,7 @@ font-style: normal;
 
 #footer {
   height: 50px;
-  background:whitesmoke;
+  background:#FFE4C4;
   border-top: 2px solid #4C9CF1;
   height:150px;
   /*padding-top: 10px;*/
@@ -204,7 +208,7 @@ float: right;
 }
 #footer h5{
   font-size: 15px;
-  font-family: sans-serif;
+  font-family: carolina;
   text-align: center;
   color:blue;
   font-style: normal;
@@ -212,14 +216,16 @@ float: right;
 }
 #footer h3{
   font-size: 20px;
-  font-family: serif;
+  font-family:carolina;
   color: black;
   font-style: normal;
 }
 .foot a{
-  display: list-item;
-  font-size: 15px;
+  /*display:inline;
+  font-size: 15px;*/
+  margin-left: 80px;
   /*margin-right: 20px;*/
+  /*padding-top: 40px;*/
 }
 .foot h3{
   font-size: 30px;
@@ -227,7 +233,7 @@ float: right;
   text-decoration: none;
 }
 .foot h5{
-
+padding-top: 20px;
 }
 form{
   /*padding-top: 20px;*/

@@ -32,7 +32,7 @@ border-right: 1px solid black;*/
 .main2 h3{
   text-align: center;
 
-  padding-top: 20px;
+  padding-top: 40px;
   font-family: open sans light;
   font-size: 30px;
   text-decoration: none;
@@ -47,7 +47,7 @@ border-right: 1px solid black;*/
 .main2 img{
   padding-top: 5px;
   height:640px;
-  width:1247px;
+  width:960px;
 }
 .service h1{
   text-align: center;
@@ -78,6 +78,9 @@ border-right: 1px solid black;*/
   padding-top: 20px;
   border: 0px;
 }
+.service a{
+  text-decoration: none;
+}
 .section1 {
   padding-top: 80px;
   padding-bottom: 40px;
@@ -106,10 +109,11 @@ border-right: 1px solid black;*/
 .footer form{
   padding-top: 20px;
 }
-.footer a{
-  display:inline-list;
+/*.footer a{
+  display:list-item;
   text-decoration: none;
-}
+  list-style: none;
+}*/
  a:hover{
   color:red;
 }
@@ -125,19 +129,20 @@ body h4{
   padding-top: 10px;
 }
 .footer img{
-  display: list;
+  display: list-item;
   height: 30px;
   width:40px;
   padding-top: 40px;
   float:right;
-  padding: 2px;
+  padding: 4px;
 }
 .footer a{
   padding-top: 10px;
   padding: px;
   display: inline;
   list-style: none;
-  padding-left: 50px;
+  text-decoration: none;
+  padding-left: 80px;
 }
 .footer h1,form{
   color:black;

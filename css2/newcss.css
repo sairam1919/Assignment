@@ -1,53 +1,45 @@
 body{
-  background: #778899;
-  font-family: open sans light;
-  text-decoration: none;
+  background: #2F4F4F;
   font-family: 'Open Sans', sans-serif;
-/*border-left: 1px solid black;
-border-right: 1px solid black;*/
+  text-decoration: none;
+  color:black;
+  /*border-left: 1px solid black;
+  border-right: 1px solid black;*/
 }
 .major{
   background: white;
 }
 .main{
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 .main img{
-      width:;
-      height:80px;
+  width:;
+  height:80px;
 }
 .main nav a{
   display:inline;
   text-decoration: none;
   float:right;
-  padding:8px;
+  padding:3px;
   font-size: 20px;
   padding-top: 40px;
   color:black;
-  font-family: 'Open Sans', sans-serif;
 }
  nav a:hover{
     color: blue;
 }
 .main2 h3{
   text-align: center;
-
-  padding-top: 20px;
+  padding-top: 40px;
   font-family: open sans light;
   font-size: 30px;
   text-decoration: none;
   color:#313131;
 }
-
 .image img{
-  padding-top: 40px;
+  padding-top: 10px;
   height:640px;
   width:959px;
-}
-.main2 img{
-  padding-top: 5px;
-  height:640px;
-  width:1247px;
 }
 .service h1{
   text-align: center;
@@ -113,16 +105,9 @@ border-right: 1px solid black;*/
  a:hover{
   color:red;
 }
-/*body h4{
-text-align: center;
-  padding-top: 15px;
-}*/
 body h5{
-  padding-top: 15px;
-}
-body h4{
   text-align: center;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 .footer img{
   display: list;
